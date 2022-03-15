@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  vite-app:
+    stdin_open: true
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/usr/app/
