@@ -6,6 +6,7 @@ This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang
 
 - [ReactJS](https://reactjs.org)
 - [Vite](https://vitejs.dev)
+- [Docker](https://www.docker.com/)
 - [TypeScript](https://www.typescriptlang.org)
 - [Jest](https://jestjs.io)
 - [Testing Library](https://testing-library.com)
@@ -51,6 +52,20 @@ This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## Other commands
+
+### Docker commands
+
+- Run in a docker container in development mode (port: 3000)
+
+```bash
+docker-compose -f docker-compose.yml up -d
+```
+
+- Run in a docker container in production mode with nginx (port: 8080)
+
+```bash
+docker-compose -f docker-compose.prod.yml up -d
+```
 
 ### Lint commands
 
