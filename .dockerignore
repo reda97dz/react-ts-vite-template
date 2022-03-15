@@ -3,3 +3,4 @@ build
 .dockerignore
 package-lock.json
 Dockerfile
+Dockerfile.prod

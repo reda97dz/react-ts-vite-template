@@ -2,7 +2,9 @@ version: '3.4'
 services:
   vite-app:
     stdin_open: true
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     volumes:
