@@ -1,13 +1,22 @@
-import Logo from "@/assets/logo.png";
-import HelloWorld from "@/components/HelloWorld/HelloWorld";
+import { Routes } from "react-router";
+import { BrowserRouter, Route as ReactRoute } from "react-router-dom";
 
-import styles from "./App.module.css";
+import { Route } from "./components/Core/Route";
+import { routes } from "./routes";
 
-export default function App() {
+function App() {
   return (
-    <main className={styles.main}>
-      <img className={styles.logo} alt="React logo" width="400px" src={Logo} />
-      <HelloWorld msg="Hello React + TypeScript + Vite" />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        {routes.map(route => (
+          <ReactRoute key={route.path} element={<Route />}>
+            <ReactRoute path={route.path} element={<route.component />} />
+          </ReactRoute>
+        ))}
+        <ReactRoute path="/" element={<h1>Login</h1>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
+
+export default App;
