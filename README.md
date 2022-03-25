@@ -1,4 +1,4 @@
-# React TypeScript template with Vite
+# React TypeScript Dashboard with Vite and Mantine
 
 This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org/) boilerplate built with [Vite](https://vitejs.dev).
 
@@ -8,6 +8,7 @@ This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang
 - [Vite](https://vitejs.dev)
 - [Docker](https://www.docker.com/)
 - [TypeScript](https://www.typescriptlang.org)
+- [Mantine](https://mantine.dev/)
 - [Jest](https://jestjs.io)
 - [Testing Library](https://testing-library.com)
 - [Cypress](https://www.cypress.io)
