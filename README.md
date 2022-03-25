@@ -1,6 +1,6 @@
 # React TypeScript Dashboard with Vite and Mantine
 
-This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org/) boilerplate built with [Vite](https://vitejs.dev).
+This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org/) + [Mantine](https://mantine.dev/) dashboard boilerplate built with [Vite](https://vitejs.dev).
 
 ## What's inside?
 
